@@ -8,7 +8,9 @@ class SplashBody extends StatelessWidget {
   Widget build(BuildContext context) {
     return  Column(mainAxisAlignment:MainAxisAlignment.center,
     children: [
-        Center(child: Image.asset(AssetData.logo))
+        Center(child: Image.asset(AssetData.logo)),
+        SizedBox(height: 9,),
+        Text('Read free Books',style: TextStyle(fontSize: 20),)
       ],
     );
   }
