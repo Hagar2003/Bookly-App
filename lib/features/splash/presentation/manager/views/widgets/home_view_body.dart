@@ -18,9 +18,9 @@ class HomeBody extends StatelessWidget {
           Container(
             width: double.infinity,
             child: Text(
-              '   Best Seller',
+              '  Best Seller',
               textAlign: TextAlign.start,
-              style: Styles.titleMed,
+              style: Styles.textStyle20,
             ),
           ),
           BestSellerListViewItem()
