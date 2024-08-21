@@ -12,7 +12,7 @@ class ListViewItem extends StatelessWidget {
         decoration: BoxDecoration(color: Colors.pink,
             borderRadius: BorderRadius.circular(16),
             image: DecorationImage(
-                fit: BoxFit.fill, image: AssetImage(AssetData.test))),
+                fit: BoxFit.fill, image: AssetImage(AssetData.testt))),
       ),
     );
   }
