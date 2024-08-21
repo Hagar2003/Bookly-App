@@ -1,9 +1,7 @@
 import 'package:bookly_app/core/utils/styles.dart';
-import 'package:bookly_app/core/widgets/custom_button.dart';
 import 'package:bookly_app/features/home/presentation/view_models/views/widgets/app_bar_details.dart';
 import 'package:bookly_app/features/home/presentation/view_models/views/widgets/book_rating.dart';
 import 'package:bookly_app/features/home/presentation/view_models/views/widgets/books_action.dart';
-import 'package:bookly_app/features/home/presentation/view_models/views/widgets/books_list_view.dart';
 import 'package:bookly_app/features/home/presentation/view_models/views/widgets/custom_list_view_item.dart';
 import 'package:bookly_app/features/home/presentation/view_models/views/widgets/similar_books_list_view.dart';
 import 'package:flutter/material.dart';
