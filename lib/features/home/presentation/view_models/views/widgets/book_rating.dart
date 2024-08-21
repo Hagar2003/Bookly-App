@@ -10,13 +10,15 @@ class BookRating extends StatelessWidget {
     return Row(
       children: [
         Icon(FontAwesomeIcons.solidStar,
-        color:Colors.yellow),SizedBox(width: 6.3,),
+        color:Colors.yellow),SizedBox(width: 11.3,),
         Text('4.8',
-        style: Styles.textStyle16,),SizedBox(width: 5,),
-        Text('(408)',
-        style: Styles.textStyle14.copyWith(color:
-        const Color(0xff707070)
-        ),)
+        style: Styles.textStyle16,),SizedBox(width: 8,),
+        Opacity(opacity: .5,
+          child: Text('(408)',
+          style: Styles.textStyle14.copyWith(
+          fontWeight: FontWeight.w600
+          ),),
+        )
       ],
     );
   }
