@@ -6,7 +6,25 @@ class BookDetailsBody extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      
+body:Column(children: [
+  SafeArea(child: AppBarDetails())
+],)
     );
+  }
+}
+
+class AppBarDetails extends StatelessWidget {
+  const AppBarDetails({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      children: [
+      IconButton(onPressed: (){},
+       icon: Icon(Icons.close)),
+         IconButton(onPressed: (){},
+       icon: Icon(Icons.shopping_cart_outlined)),
+       
+    ],);
   }
 }
