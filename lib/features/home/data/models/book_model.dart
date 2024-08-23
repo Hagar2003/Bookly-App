@@ -1,5 +1,3 @@
-
-
 import 'package:bookly_app/features/home/data/models/acces_info.dart';
 import 'package:bookly_app/features/home/data/models/sale_info.dart';
 import 'package:bookly_app/features/home/data/models/search_info.dart';

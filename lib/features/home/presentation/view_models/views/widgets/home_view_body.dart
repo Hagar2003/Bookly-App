@@ -18,6 +18,7 @@ class HomeBody extends StatelessWidget {
           children: [
             CustomAppBar(),
             BooksListView(),
+            SizedBox(height: 20,),
             Container(
               width: double.infinity,
               child: Text(
