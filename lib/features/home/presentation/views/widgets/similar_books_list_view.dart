@@ -13,7 +13,7 @@ class SimilarListView extends StatelessWidget {
         itemBuilder: (context, index) {
         return Padding(
           padding:const EdgeInsets.symmetric(horizontal: 8.0),
-          child: ListViewItem(),
+          child: ListViewItem(image:   "https://i.pinimg.com/564x/94/df/a7/94dfa775f1bad7d81aa9898323f6f359.jpg",),
         );
       }),
     );

@@ -22,7 +22,7 @@ class BestSellerListViewItem extends StatelessWidget {
               aspectRatio: 2.8 / 4,
               child: Container(
                 decoration: BoxDecoration(
-                    color: Colors.white,
+                    
                     borderRadius: BorderRadius.circular(8),
                     image: DecorationImage(
                         fit: BoxFit.fill, image: AssetImage(AssetData.testt))),

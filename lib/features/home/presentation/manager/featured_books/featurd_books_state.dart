@@ -8,9 +8,10 @@ final class FeaturdBooksInitial extends FeaturdBooksState {}
 final class FeaturdBooksLoading extends FeaturdBooksState {}
 
 final class FeaturdBooksFailure extends FeaturdBooksState {
-  final String erMessage;
+  final String erorMessage;
 
-  FeaturdBooksFailure(this.erMessage);
+  FeaturdBooksFailure(this.erorMessage);
+  
 }
 
 final class FeaturdBooksSuccess extends FeaturdBooksState {

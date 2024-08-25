@@ -29,7 +29,7 @@ hasScrollBody: false,
             Padding(
               padding: EdgeInsets.symmetric(
                   horizontal: MediaQuery.of(context).size.width * .25),
-              child: ListViewItem(),
+              child: ListViewItem(image:   "https://i.pinimg.com/564x/94/df/a7/94dfa775f1bad7d81aa9898323f6f359.jpg",),
             ),
             SizedBox(
               height: 36,
