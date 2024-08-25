@@ -9,8 +9,10 @@ import 'package:dio/dio.dart';
 
 class HomeRepoImplementation implements HomeRepo {
   final ApiService apiService;
+
+  HomeRepoImplementation(this.apiService);
   @override
-  HomeRepoImplementation({required this.apiService});
+
 
   Future<Either<Failure, List<BookModel>>> fetchBestSellerBooks() async {
     try {
