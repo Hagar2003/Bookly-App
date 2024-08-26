@@ -7,7 +7,11 @@ class ListViewItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AspectRatio(
-      aspectRatio: 2.6 / 4,
+      aspectRatio: 2.8 / 4,
+      // child: CachedNetworkImage(fit: BoxFit.fill,
+      //   imageUrl: image,
+      //   errorWidget: (context, url, error) =>Icon (Icons.access_alarm),
+      //   ),
       child: Container(
         decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(16),
@@ -18,3 +22,5 @@ class ListViewItem extends StatelessWidget {
     ;
   }
 }
+
+

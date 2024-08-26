@@ -54,7 +54,7 @@ hasScrollBody: false,
                 SizedBox(
                   width: 160,
                 ),
-                BookRating(),
+                BookRating(rating: 5, count: 10,),
                 
               ],
             ), 

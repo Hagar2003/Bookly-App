@@ -22,13 +22,13 @@ class HomeBody extends StatelessWidget {
             Container(
               width: double.infinity,
               child: Text(
-                '  Best Seller',
+                '  Newest Books',
                 textAlign: TextAlign.start,
-                style: Styles.textStyle20,
+                style: Styles.textStyle20.copyWith(fontSize: 22),
               ),
             ),
             SizedBox(
-              height: 20,
+              height: 10,
             ),
             
           ],
